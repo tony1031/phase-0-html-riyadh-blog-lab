@@ -50,9 +50,7 @@ describe("index.html", () => {
       const [firstP, secondP, thirdP] = wrapper.querySelectorAll("p");
       expect(firstP).to.contain.text("Once a mudbrick waystation");
       expect(secondP).to.contain.text("Riyadh");
-      expect(thirdP).to.contain.text(
-        "The city is divided into 15 municipal districts"
-      );
+      expect(thirdP).to.contain.text( "The city is divided into 15 municipal districts");
     });
 
 
